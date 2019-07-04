@@ -1,0 +1,6 @@
+<!--pages/drive/drive.wxml-->
+<view class="layoutclass" style="flex-direction:row;">
+<button class="weui-btn" type="warn"></button>
+<button class="weui-btn" type="default">真黑</button>
+<button class="weui-btn" type="primary">真绿</button>
+</view>

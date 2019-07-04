@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="page_hd">
+  <button class="weui-btn" type="primary">开始漂移</button>
+  <button class="weui-btn" type="primary" disabled="True">桥豆麻袋</button>
+  </view>
+</view>
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view>
+  <label>账号</label>
+  <input placeholder="请输入账号" bindinput="myAcconutInput" />
+  <label>密码</label>
+  <input password="True" placeholder="请输入密码" bindinput="myPasswordInput" /> 
+  <button type="primary" bindtap="myLogin">登录</button>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
