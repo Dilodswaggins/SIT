@@ -1,8 +1,8 @@
 <!--index.wxml-->
 <view class="page">
   <view class="page_hd">
-  <button class="weui-btn" type="primary">开始漂移</button>
-  <button class="weui-btn" type="primary" disabled="True">桥豆麻袋</button>
+  <button class="weui-btn" type="primary" bindtap="rundetail">直接开始</button>
+  <button class="weui-btn" type="primary">管理模式</button>
   </view>
 </view>
 <view class="container">

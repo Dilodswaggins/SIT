@@ -1,0 +1,7 @@
+/* pages/fee/fee.wxss */
+.wallet{
+  padding: 100rpx 160rpx;
+}
+.wallet-btn{
+  
+}

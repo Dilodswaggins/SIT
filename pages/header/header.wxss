@@ -1,0 +1,44 @@
+/* pages/header/header.wxss */
+.controls {
+  position: relative;
+  top: 50%;
+  height: 50px;
+  margin-top: -25px;
+  display: flex;
+}
+.play,.pause,.time {
+  flex: 1;
+  height: 100%;
+}
+.time {
+  text-align: center;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  line-height: 50px;
+}
+.img {
+  width: 40px;
+  height: 40px;
+  margin: 5px auto;
+}
+.footer {
+  overflow: hidden;
+}
+
+.con-tab {
+  padding: 30px;
+  display: flex;
+}
+
+.tab-item {
+  flex: 1;
+  display: flex;
+  height: 100rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-item.active {
+  border-bottom: 2px #fc3154 solid;
+  color: #fc3154;
+}

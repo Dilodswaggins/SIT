@@ -1,0 +1,36 @@
+/* pages/find/find.wxss */
+.search-view{
+  background: #ffffff;
+  height: 60rpx;
+  margin:20rpx;
+  border-radius: 10rpx;
+  font-size: 24rpx;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  padding: 0 20rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-text{
+  line-height: 60rpx;
+}
+.search-icon{
+  line-height: 60rpx;
+  height: 30rpx;
+}
+.user-tab {
+  left: ture;
+}
+.tab-item {
+  flex: 1;
+  display: flex;
+  height: 100rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-item.active {
+  border-bottom: 2px #13b142 solid;
+  color: #f55a67;
+}

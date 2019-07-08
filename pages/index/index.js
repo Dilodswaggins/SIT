@@ -1,7 +1,6 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
 Page({
   data: {
     motto: "逮虾户",
@@ -31,7 +30,7 @@ Page({
     var myPassword=this.data.myPassword;
     console.log("账号"+myAccount);
     console.loh("密码"+myPassword);
-    wx.request({
+    /*wx.request({
       url: '',
       method: 'POST',
       data: {
@@ -59,10 +58,15 @@ Page({
           });
         }
       }
-    })
+    })*/
   },
 
   //事件处理函数
+  rundetail: function(){
+    wx.switchTab({
+      url: '../header/header'
+    })
+  },
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'

@@ -1,0 +1,52 @@
+<!--pages/find/find.wxml-->
+<view class="search-view" wx:if="{{true}}" bindtap="go_search">
+    <text class="search-text">搜索地点</text>
+    <icon class="search-icon" type="search" size="15" />
+  </view>
+<view style="position: relative;width: 100%;height: 160rpx;margin-top: 20rpx;margin-bottom: 20rpx;display: flex;justify-content: space-between;align-items: center;" bindtap="viewdetail">
+
+    <view bindtap="clickIntroduction" style="width: 100%;height: 100%;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+        <view style="width: 80rpx;height: 80rpx;">
+            <image style="width: 100%;height: 100%;" src="../../icon/mycar.png"></image>
+        </view>
+        <view>美食</view>
+    </view>
+
+    <view bindtap="clickAppointment" style="width: 100%;height: 100%;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+        <view style="width: 80rpx;height: 80rpx;">
+            <image style="width: 100%;height: 100%;" src="../../icon/mypark.png"></image>
+        </view>
+        <view>酒店</view>
+    </view>
+
+    <view bindtap="clickCommodity" style="width: 100%;height: 100%;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+        <view style="width: 80rpx;height: 80rpx;">
+            <image style="width: 100%;height: 100%;" src="../../icon/pay.png"></image>
+        </view>
+        <view>娱乐</view>
+    </view>
+    
+    <view bindtap="clickCommodity" style="width: 100%;height: 100%;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+        <view style="width: 80rpx;height: 80rpx;">
+            <image style="width: 100%;height: 100%;" src="../../icon/findaround.png"></image>
+        </view>
+        <view>商铺</view>
+    </view>
+
+</view>
+
+  <view class="user-tab">
+    <view class="tab-item.active">
+      <text>美食</text>
+    </view>
+  <view class="tab-item.active">
+      <text>酒店</text>
+      </view>
+      <view class="tab-item.active">
+      <text>娱乐</text>
+      </view>
+      <view class="tab-item.active">
+      <text>商铺</text>
+      </view>
+    
+  </view>

@@ -2,13 +2,48 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/drive/drive"
+    "pages/drive/drive",
+    "pages/header/header",
+    "pages/park/park",
+    "pages/order/order",
+    "pages/user/user",
+    "pages/reserved/reserved",
+    "pages/fee/fee",
+    "pages/find/find",
+    "pages/static/static",
+    "pages/mycar/mycar"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#0ff",
+    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Tou文字D",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/header/header",
+      "text": "首页",
+      "iconPath": "icon/首页.png",
+      "selectedIconPath": "icon/首页.png"
+    },
+    {
+      "pagePath": "pages/park/park",
+      "text": "停车",
+      "iconPath": "icon/停车.png",
+      "selectedIconPath": "icon/停车.png"
+    },
+    {
+      "pagePath": "pages/order/order",
+      "text": "订单",
+      "iconPath": "icon/订单.png",
+      "selectedIconPath": "icon/订单.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "我的",
+      "iconPath": "icon/我的.png",
+      "selectedIconPath": "icon/我的.png"
+    }]
   },
   "sitemapLocation": "sitemap.json"
 }

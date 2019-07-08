@@ -4,13 +4,21 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
+		"coverView": true,
 		"autoAudits": false,
-		"coverView": true
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
@@ -40,12 +48,40 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 4,
 			"list": [
 				{
 					"id": -1,
 					"name": "drive",
 					"pathName": "pages/drive/drive",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/header/header",
+					"pathName": "pages/header/header",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/reserved/reserved",
+					"pathName": "pages/reserved/reserved",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/park/park",
+					"pathName": "pages/park/park",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/order/order",
+					"pathName": "pages/order/order",
 					"scene": null
 				}
 			]

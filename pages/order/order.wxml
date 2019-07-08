@@ -1,0 +1,11 @@
+<!--pages/order/order.wxml-->
+<view class="search-view" wx:if="{{true}}" bindtap="go_search">
+    <text class="search-text">查询订单</text>
+    <icon class="search-icon" type="search" size="15" />
+  </view>
+<view class="group">
+  <block wx:for="{{iconSize}}">
+    <icon type="success" size="{{item}}"/>
+    <text>支付成功</text>
+  </block>
+</view>

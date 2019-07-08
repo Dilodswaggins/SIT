@@ -1,0 +1,25 @@
+
+.search-view{
+  background: #ffffff;
+  height: 60rpx;
+  margin:20rpx;
+  border-radius: 10rpx;
+  font-size: 24rpx;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  padding: 0 20rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-text{
+  line-height: 60rpx;
+}
+.search-icon{
+  line-height: 60rpx;
+  height: 30rpx;
+}
+.group{
+  padding: 200rpx 220rpx;
+  text-align: center;
+}
